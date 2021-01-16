@@ -11,8 +11,9 @@ class Student extends Model
 
     protected $fillable = [
 
-        'student_id',
-        'student_name',
-        'student_national_id',
+        'univ_id',
+        'name',
+        'national_id',
+        'mobile',
     ];
 }

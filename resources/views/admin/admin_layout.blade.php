@@ -43,6 +43,10 @@
     <link rel="stylesheet" href="{{asset('app-assets\css-rtl\pages\ex-component-dragndrop.min.css')}}">
     <link rel="stylesheet" href="{{asset('app-assets\css-rtl\pages\ex-component-sweet-alerts.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('app-assets\vendors\css\dropzone.min.css')}}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.css" integrity="sha512-pDpLmYKym2pnF0DNYDKxRnOk1wkM9fISpSOjt8kWFKQeDmBTjSnBZhTd41tXwh8+bRMoSaFsRnznZUiH9i3pxA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" />
+
     <!-- END: Custom CSS-->
 </head>
 <!-- END : Head-->
@@ -394,9 +398,11 @@
 <!-- END PAGE LEVEL JS-->
 <!-- BEGIN: Custom CSS-->
 <script src="{{asset('assets\js\scripts.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote.min.js" integrity="sha512-kZv5Zq4Cj/9aTpjyYFrt7CmyTUlvBday8NGjD9MxJyOY/f2UfRYluKsFzek26XWQaiAp7SZ0ekE7ooL9IYMM2A==" crossorigin="anonymous"></script>
 
 </body>
 
 </html>
 
-@stack('myjs')
+@stack('pageJs')
